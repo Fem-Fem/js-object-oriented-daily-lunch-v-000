@@ -80,8 +80,8 @@ class Meal {
     // debugger
     let prices = store.meals.map(meal => meal.price).sort(function(a, b){return b-a})
     // let orderedPrices = prices.map(prices =>)
-    orderedPrices = []
-    arrayLength = prices.length
+    let orderedPrices = []
+    let arrayLength = prices.length
     for (var i = 0; i < arrayLength; i++) {
       for (var x = 0; i < store.meals.length; x++) {
         if (store.meals[x].price == prices[i]) {
