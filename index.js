@@ -88,7 +88,6 @@ class Meal {
           orderedPrices.push(store.meals[x])
         }
       }
-      // total = total + prices[i]
     }
     return orderedPrices
     // return prices.map(price => {
