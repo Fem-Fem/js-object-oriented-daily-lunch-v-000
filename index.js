@@ -85,7 +85,7 @@ class Meal {
     for (var i = 0; i < arrayLength; i++) {
       for (var x = 0; i < store.meals.length; x++) {
         if (store.meals[x].price == prices[i]) {
-          return
+          orderedPrices.push(store.meals[x])
         }
       }
       // total = total + prices[i]
