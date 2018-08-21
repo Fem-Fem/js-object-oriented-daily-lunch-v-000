@@ -88,10 +88,6 @@ class Meal {
       }
     }
     return orderedPrices
-    // return prices.map(price => {
-    //   return delivery.mealId == this.id
-    // })
-    // return prices
   }
 
   deliveries() {
