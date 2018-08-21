@@ -80,9 +80,12 @@ class Meal {
     // debugger
     let prices = store.meals.map(meal => meal.price).sort(function(a, b){return b-a})
     // let orderedPrices = prices.map(prices =>)
-    return store.deliveries.filter(delivery => {
-      return delivery.mealId == this.id
-    })
+    for (var i = 0; i < arrayLength; i++) {
+      total = total + prices[i]
+    }
+    // return prices.map(price => {
+    //   return delivery.mealId == this.id
+    // })
     // return prices
   }
 
