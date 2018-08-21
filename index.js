@@ -77,7 +77,7 @@ class Meal {
   }
 
   static byPrice() {
-    return 2
+    debugger
   }
 
   deliveries() {
