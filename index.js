@@ -80,7 +80,10 @@ class Meal {
     // debugger
     let prices = store.meals.map(meal => meal.price).sort(function(a, b){return b-a})
     // let orderedPrices = prices.map(prices =>)
-    return prices
+    return store.deliveries.filter(delivery => {
+      return delivery.mealId == this.id
+    })
+    // return prices
   }
 
   deliveries() {
