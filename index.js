@@ -83,7 +83,7 @@ class Meal {
     let orderedPrices = []
     let arrayLength = prices.length
     for (var i = 0; i < arrayLength; i++) {
-      for (var x = 0; i < store.meals.length; x++) {
+      for (var x = 0; x < store.meals.length; x++) {
         if (store.meals[x].price == prices[i]) {
           orderedPrices.push(store.meals[x])
         }
