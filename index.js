@@ -79,7 +79,8 @@ class Meal {
   static byPrice() {
     // debugger
     let prices = store.meals.map(meal => meal.price).sort(function(a, b){return b-a})
-    let orderedPrices = prices.map(prices =>)
+    // let orderedPrices = prices.map(prices =>)
+    return prices
   }
 
   deliveries() {
