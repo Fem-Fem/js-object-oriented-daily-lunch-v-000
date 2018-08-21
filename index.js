@@ -90,6 +90,7 @@ class Meal {
       }
       // total = total + prices[i]
     }
+    return orderedPrices
     // return prices.map(price => {
     //   return delivery.mealId == this.id
     // })
