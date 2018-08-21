@@ -78,6 +78,7 @@ class Meal {
 
   static byPrice() {
     debugger
+    let x = store.meals.map(meal => meal.price)
   }
 
   deliveries() {
