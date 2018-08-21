@@ -76,9 +76,9 @@ class Meal {
 
   }
 
-  static.byPrice() {
-    
-  }
+  // static.byPrice() {
+  //
+  // }
 
   deliveries() {
     return store.deliveries.filter(delivery => {
