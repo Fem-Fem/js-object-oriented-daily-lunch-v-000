@@ -77,9 +77,7 @@ class Meal {
   }
 
   static byPrice() {
-    // debugger
     let prices = store.meals.map(meal => meal.price).sort(function(a, b){return b-a})
-    // let orderedPrices = prices.map(prices =>)
     let orderedPrices = []
     let arrayLength = prices.length
     for (var i = 0; i < arrayLength; i++) {
